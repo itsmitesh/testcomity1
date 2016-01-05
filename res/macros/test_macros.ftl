@@ -1,0 +1,1 @@
+"Welcome to ${community.title}! Hello ${user.login!"anonymous user"}!"

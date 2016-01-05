@@ -1,0 +1,7 @@
+#lia-body .lia-content .lia-component-common-widget-page-title {
+	background: url(${images.arrow_side.url}) no-repeat center right transparent;
+}
+
+#lia-body.EditPage .lia-content .lia-quilt-column-06{
+width:190px;
+}

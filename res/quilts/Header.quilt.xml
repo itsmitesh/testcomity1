@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="header" nestable="false">
+  <add to="breadcrumb">
+    <component id="common.widget.breadcrumb"/>
+  </add>
+  <add to="page-title">
+    <component id="common.widget.page-title"/>
+  </add>
+  <add to="user-navigation">
+    <component id="common.widget.user-navigation"/>
+  </add>
+  <add to="private-notes">
+    <component id="notes.widget.summary"/>
+  </add>
+  <add to="site-navigation">
+    <component id="common.widget.site-navigation"/>
+    <component id="common.widget.search-form"/>
+  </add>
+</quilt>

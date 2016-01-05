@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="sunnym_users" feature="custom.comity.comity">
+  <model/>
+  <view type="freemarker" contenttype="text/xml" macro="false"/>
+  <controller id="basic" path="/sunnym_users"/>
+</endpoint>

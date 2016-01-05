@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false">
+  <add to="main-content">
+    <component id="VishwajeetH_Test"/>
+  </add>
+  <add to="common-header">
+    <component id="common.widget.breadcrumb"/>
+    <component id="forums.widget.users-online"/>
+  </add>
+</quilt>

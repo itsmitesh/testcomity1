@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="blogs.widget.management"/>
+    <component id="blogs.widget.bios"/>
+    <component id="common.widget.announcement"/>
+    <component id="kudos.widget.messages-leaderboard"/>
+    <component id="blogs.widget.latest-articles"/>
+    <component id="blogs.widget.latest-comments"/>
+    <component id="blogs.widget.labels"/>
+    <component id="blogs.widget.archives"/>
+    <component id="forums.widget.polls"/>
+    <component id="blogs.widget.blogroll"/>
+    <component id="kudos.widget.givers-leaderboard"/>
+  </add>
+  <add to="main-content">
+    <component id="AbhishekPOC_BlogTeaserImage"/>
+    <component id="article"/>
+    <component id="article-navigator"/>
+    <component id="comments"/>
+    <component id="comment-article-navigator"/>
+    <component id="comments-awaiting-moderation"/>
+    <component id="comment-editor"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="common.widget.node-information"/>
+    <component id="Abhishek_POC_avatar"/>
+    <component id="menu-bar"/>
+    <component id="Test_Madhu"/>
+  </add>
+</quilt>

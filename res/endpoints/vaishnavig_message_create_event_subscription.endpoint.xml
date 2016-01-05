@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="vaishnavig_message_create_event_subscription" feature="custom.comity.comity">
+  <model/>
+  <view type="freemarker" contenttype="text/html" macro="false"/>
+  <controller id="basic" path="/vaishnavig_message_create_event_subscription"/>
+</endpoint>

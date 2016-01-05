@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="OneCell" nestable="true">
+  <add to="main">
+    <component id="common.widget.announcement"/>
+    <component id="kudos.widget.authors-leaderboard"/>
+    <component id="solutions.widget.recently-solved-threads"/>
+    <component id="Latest_Blog_Entry"/>
+  </add>
+</quilt>
