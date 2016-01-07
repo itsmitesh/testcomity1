@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="form-one-column" nestable="false">
+  <add to="main-content">
+    <component id="ooyala_video_play_test_vikas"/>
+  </add>
+</quilt>

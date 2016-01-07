@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="community.widget.admin-links"/>
+    <component id="reviews.widget.recent-reviews"/>
+    <component id="forums.widget.board-browser"/>
+    <component id="images.widget.moderation"/>
+    <component id="video.widget.moderation"/>
+    <component id="kudos.widget.messages-leaderboard"/>
+    <component id="tags.widget.tag-cloud"/>
+    <component id="forums.widget.polls"/>
+    <component id="kudos.widget.authors-leaderboard"/>
+    <component id="forums.widget.users-online"/>
+    <component id="kudos.widget.givers-leaderboard"/>
+    <component id="user-node-rank.widget.leaderboard"/>
+    <component id="community.widget.quick-links"/>
+  </add>
+  <add to="main-content">
+    <component id="common.widget.announcement"/>
+    <component id="qanda.widget.ask-an-expert" discussionStyle="forum"/>
+    <component id="streams.widget.activity-stream" types="feed,list,image-grid" listSize="10"/>
+    <component id="forums.widget.recent-threads"/>
+    <component id="forums.widget.recent-messages"/>
+    <component id="solutions.widget.recently-solved-threads" mode="slim"/>
+    <component id="subscriptions.widget.subscriptions"/>
+    <component id="subscriptions.widget.bookmarks"/>
+    <component id="community.widget.notes"/>
+    <component id="forums.widget.unread-threads"/>
+    <component id="forums.widget.top-boards"/>
+    <component id="groups.widget.my-groups-list-wide-view"/>
+    <component id="klout.widget.cta-connect"/>
+    <component id="klout.widget.cta-modal-frame"/>
+    <component id="Carousel"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="common.widget.welcome"/>
+    <component id="forums.widget.board-browser-list"/>
+    <component id="Test_Madhu"/>
+  </add>
+</quilt>

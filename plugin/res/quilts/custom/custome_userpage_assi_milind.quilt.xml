@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="three-column" nestable="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="mid-content">
+    <component id="MilindS_user_stats"/>
+    <component id="MilindS_img_comp"/>
+  </add>
+  <add to="common-header">
+    <component id="MilindS_user_header"/>
+    <component id="quilt:Header"/>
+    <component id="milind_BlogArticleComponent"/>
+  </add>
+  <add to="left-content">
+    <component id="MilindS_liked_posts"/>
+  </add>
+</quilt>

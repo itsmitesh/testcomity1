@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="abhishek_getuseravatar" feature="custom.comity.comity">
+  <model/>
+  <view type="freemarker" contenttype="application/json" macro="false"/>
+  <controller id="basic" path="/abhishek_getuseravatar"/>
+</endpoint>

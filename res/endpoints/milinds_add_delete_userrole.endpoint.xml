@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="milinds_add_delete_userrole" feature="custom.comity.comity">
+  <model/>
+  <view type="freemarker" contenttype="application/json" macro="false"/>
+  <controller id="basic" path="/milinds_add_delete_userrole"/>
+</endpoint>

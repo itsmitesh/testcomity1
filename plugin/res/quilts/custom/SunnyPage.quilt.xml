@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="three-column" nestable="false">
+  <add to="mid-content">
+    <component id="SunnyM_kudoed_authors"/>
+  </add>
+  <add to="right-content">
+    <component id="SunnyM-custom-user-navigation-links"/>
+  </add>
+  <add to="left-content">
+    <component id="SunnyM_masonry_layout"/>
+  </add>
+</quilt>

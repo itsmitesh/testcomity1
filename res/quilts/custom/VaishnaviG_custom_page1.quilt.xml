@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false">
+  <add to="main-content">
+    <component id="VaishnaviG_csv_reader_script"/>
+    <component id="VaishnaviG_jcrop_poc"/>
+    <component id="VaishnaviG_enumerated_pagination_for_blogs_page"/>
+    <component id="VaishnaviG_liked_posts_caching_component"/>
+  </add>
+</quilt>

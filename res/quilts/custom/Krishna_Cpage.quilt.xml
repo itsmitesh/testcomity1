@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="true">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="RView_Krishna"/>
+    <component id="kp_uploadimg"/>
+  </add>
+  <add to="main-content">
+    <component id="Krishna_SideView"/>
+    <component id="side2_view"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="Krishna_ImgDisplay"/>
+  </add>
+</quilt>

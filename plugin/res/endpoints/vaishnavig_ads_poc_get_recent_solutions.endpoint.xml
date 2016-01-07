@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="vaishnavig_ads_poc_get_recent_solutions" feature="custom.comity.comity">
+  <model/>
+  <view type="freemarker" contenttype="application/json" macro="false"/>
+  <controller id="basic" path="/vaishnavig_ads_poc_get_recent_solutions"/>
+</endpoint>

@@ -1,0 +1,64 @@
+/*************** Community Page Carousel Arrow Navigator Skin Begins ***************************/
+    /* jssor slider arrow navigator skin 12 css */
+    /*
+    .jssora12l              (normal)
+    .jssora12r              (normal)
+    .jssora12l:hover        (normal mouseover)
+    .jssora12r:hover        (normal mouseover)
+    .jssora12ldn            (mousedown)
+    .jssora12rdn            (mousedown)
+    */
+    .jssora12l, .jssora12ldn, .jssora12rdn {
+        position: absolute;
+        cursor: pointer;
+        display: block;
+        background: url(/html/assets/arrows-white1.png) no-repeat;
+        overflow: hidden;
+    }
+
+  .jssora12r{
+     position: absolute;
+        cursor: pointer;
+        display: block;
+        background: url(/html/assets/arrows-white2.png) no-repeat;
+        overflow: hidden;
+  }
+    .jssora12l {
+       // background-position: -16px -37px;
+    }
+
+    .jssora12r {
+        //background-position: -75px -37px;
+    }
+
+    .jssora12l:hover {
+        //background-position: -136px -37px;
+    }
+
+    .jssora12r:hover {
+        //background-position: -195px -37px;
+    }
+
+    .jssora12ldn {
+        //background-position: -256px -37px;
+    }
+
+    .jssora12rdn {
+        //background-position: -315px -37px;
+    }
+
+    #lia-body.CommunityPage.lia-body .lia-quilt-column-alley-right .lia-component-common-widget-custom-content {
+        margin-top: 20px;
+    }
+
+    #lia-body.CommunityPage.lia-body #slider1_container {
+        position: relative;
+        /*top: -5px !important;*/
+        left: -1px;
+        height: 300px;
+        width: 697px;
+        overflow: hidden;
+        clear: both;
+    }
+
+    /*****************************Carousel Arrow Navigator Skin Ends************************************/

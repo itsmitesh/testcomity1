@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="row_1">
+    <column id="HeadPhones" width="6"/>
+    <column id="col_3" width="6"/>
+  </row>
+  <row id="row_2">
+    <column id="col_1" width="6"/>
+    <column id="col_2" width="6"/>
+  </row>
+</layout>
