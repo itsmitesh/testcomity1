@@ -1,0 +1,167 @@
+== .html_content ==
+<html>
+	<head>
+		<title>${notification.message.subject} (${community.title} Subscription Update)</title>
+		<style type="text/css">
+			body, td { font: 10pt Arial, Helvetica; }
+			.post-body p { margin:0; }
+		</style>
+	</head>
+	<body>
+		<p>
+			Hi ${notification.recipient.login},
+		</p>
+		<p>
+		<p>
+		#set( $eventUser = "")
+		#set( $eventUserRanking = "")
+		#set( $eventText = "")
+		#set( $eventDetails = "")
+
+		#if($notification.message.editRequestSave)
+			#set ( $eventDetails = "and has requested a review")
+		#elseif($notification.message.publishRequestSave)
+			#set ( $eventDetails = "and has requested it to be published")
+		#end
+
+		#if ($notification.newlyVisible || !$notification.message.edited)
+			#set ( $eventUser = "${notification.message.author.login}")
+			#set ( $eventUserRanking = "${notification.message.author.ranking.name}")
+			#set ( $eventText = "posted a new")
+		#else
+			#set ( $eventUser = "${notification.message.lastEditUser.login}")
+			#set ( $eventUserRanking = "${notification.message.lastEditUser.ranking.name}")
+			#if ("${notification.message.board.discussionStyle}" == "tkb")
+            #set ( $eventText = "edited an")
+            #else
+            #set ( $eventText = "edited a")
+            #end
+		#end
+
+		${eventUser} (${eventUserRanking}) ${eventText} ${notification.message.localizedObjectType} in <a href="${notification.message.board.webUi.url}">${notification.message.board.title}</a> on ${notification.formattedDateForMessageEdit} ${eventDetails}:
+		</p>
+		</p>
+		<hr />
+		
+		<p>
+			<h3>
+				<a href="${notification.message.webUi.url}">${notification.message.subject}</a>
+			</h3>
+			
+		</p>
+		#if (${notification.emailContentFormat.name} == "subject_and_body")
+			<p class="email-notification-body">
+				${notification.HTMLBody}
+				#if(${notification.displayHTMLSignature})
+					<p>
+						${notification.authorHtmlSignature}
+					</p>
+				#end
+				<p>
+					#if ($mailActions.canReplyByEmail)
+						<a href="${mailActions.replyByEmailUrl}">Reply</a>
+					#end
+					#if ($mailActions.canMarkAsSolution)
+						| <a href="${mailActions.markAsSolutionUrl}">Accept as Solution</a>
+					#end
+					#if ($mailActions.canGiveKudos)
+						| <a href="${mailActions.giveKudosUrl}">Give Kudos</a>
+					#end
+				</p>
+			</p>
+			<br />
+		#end
+		<hr />
+		<div class="email-footer">
+		<font size="1">
+			<p>
+				${community.title} sent this message to <a href="mailto:${notification.recipient.email}">${notification.recipient.email}</a>.
+				<br />
+				${footerReason}
+			</p>
+				To control which emails we send you please go to, 
+				<a href="${notification.recipient.subscriptionsPageUrl}">manage your subscription & notification settings</a> 
+				or <a href='${emailUrls.getTapestryUrl("/user/RemoveUserEmailPage/user-id/$user.id/mail-message-tracking/$trackingKey")}'>unsubscribe</a>.
+		</font>
+		</div>
+	</body>
+</html>
+
+
+== .subject ==
+#if ($notification.message.subject) ${tools.unescapeHtml($notification.message.subject)}#else ${notification.message.subject} #end (${community.title} Subscription Update)
+== .text_content ==
+Hi ${notification.recipient.login},
+
+#set ( $eventUser = "")
+#set ( $eventUserRanking = "")
+#set ( $eventText = "")
+#set ( $eventDetails = "")
+
+#if($notification.message.editRequestSave)
+#set ( $eventDetails = "and has requested a review")
+#elseif($notification.message.publishRequestSave)
+#set ( $eventDetails = "and has requested it to be published")
+#end
+
+#if ($notification.newlyVisible || !$notification.message.edited)
+#set ( $eventUser = "${notification.message.author.login}")
+#set ( $eventUserRanking = "${notification.message.author.ranking.name}")
+#set ( $eventText = "posted a new")
+#else
+#set ( $eventUser = "${notification.message.lastEditUser.login}")
+#set ( $eventUserRanking = "${notification.message.lastEditUser.ranking.name}")
+#if ("${notification.message.board.discussionStyle}" == "tkb")
+#set ( $eventText = "edited an")
+#else
+#set ( $eventText = "edited a")
+#end
+#end
+
+${eventUser} (${eventUserRanking}) ${eventText} ${notification.message.localizedObjectType} in ${notification.message.board.title} on ${notification.formattedDateForMessageEdit} in the ${community.title} ${eventDetails}:
+
+#if (${notification.emailContentFormat.name} == "subject_and_body")
+${notification.message.webUi.url}
+
+Subject: #if ($notification.message.subject) ${tools.unescapeHtml($notification.message.subject)}#else ${notification.message.subject} 
+#end
+
+${notification.plainTextBody}
+#if (${notification.displayPlainTextSignature})
+
+
+${notification.authorPlainTextSignature}
+#end
+
+#if ($mailActions.canReplyByEmail)
+You can respond to the ${notification.message.localizedObjectType} at the following URL:
+${mailActions.replyByEmailUrl}
+
+#end
+#if ($mailActions.canMarkAsSolution)
+You can accept the solution to the ${notification.message.localizedObjectType} at the following URL:
+${mailActions.markAsSolutionUrl}
+
+#end
+#if ($mailActions.canGiveKudos)
+You can give kudos to the ${notification.message.localizedObjectType} at the following URL:
+${mailActions.giveKudosUrl}
+
+#end
+#else
+
+Subject: #if ($notification.message.subject) ${tools.unescapeHtml($notification.message.subject)}#else ${notification.message.subject} 
+#end
+
+You can view the body of the ${notification.message.localizedObjectType} at the following URL:
+${notification.message.webUi.url}			
+#end											
+====================================================================================
+${footerReason}
+
+To control which emails we send you, manage your subscriptions and notifications here: 
+${notification.recipient.subscriptionsPageUrl} 
+
+or unsubscribe here: ${emailUrls.getTapestryUrl("/user/RemoveUserEmailPage/user-id/$user.id/mail-message-tracking/$trackingKey")}
+
+

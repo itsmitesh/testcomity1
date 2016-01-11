@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="footer" nestable="false">
+  <add to="search">
+    <component id="common.widget.device-view-links"/>
+    <component id="MilindS_test2"/>
+  </add>
+  <add to="icons">
+    <component id="common.widget.lithium-logo"/>
+    <component id="common.widget.admin-icon"/>
+  </add>
+</quilt>

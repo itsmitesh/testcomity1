@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <row id="forum-message-header">
+    <column id="header" width="24"/>
+  </row>
+  <row id="forum-message-main">
+    <column id="main-left" width="4"/>
+    <column id="main-right" width="20"/>
+  </row>
+  <row id="forum-message-footer">
+    <column id="footer-left" width="4"/>
+    <column id="footer-center" width="10"/>
+    <column id="footer-right" width="10"/>
+  </row>
+  <row id="forum-message-quickreply">
+    <column id="quickreply-left" width="14"/>
+    <column id="quickreply-right" width="10"/>
+  </row>
+  <row id="row_1">
+    <column id="footer-inline-editor" width="24"/>
+  </row>
+</layout>

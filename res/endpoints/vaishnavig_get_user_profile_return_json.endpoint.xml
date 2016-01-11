@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="vaishnavig_get_user_profile_return_json" feature="custom.comity.comity">
+  <model/>
+  <view type="freemarker" contenttype="text/html" macro="false"/>
+  <controller id="basic" path="/vaishnavig_get_user_profile_return_json"/>
+</endpoint>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.left-right" nestable="true">
+  <add to="common-header">
+    <component id="common.widget.breadcrumb"/>
+    <component id="common.widget.welcome"/>
+  </add>
+  <add to="left-content">
+    <component id="solutions.widget.accepted-solutions-leaderboard-taplet"/>
+    <component id="kudos.widget.authors-leaderboard"/>
+    <component id="user-node-rank.widget.leaderboard"/>
+  </add>
+</quilt>

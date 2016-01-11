@@ -1,0 +1,144 @@
+@font-face {
+    font-family: lato-regular;
+    src: url(${asset.get("/html/assets/lato-regular.woff")});
+}
+
+#lia-body {
+  letter-spacing: 0.5px;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */  
+
+#lia-body .lia-content input[type="button"],
+#lia-body .lia-content input[type="submit"],
+#lia-body .lia-content .lia-button.lia-button.lia-button,
+#lia-body .lia-content .lia-button.lia-button.lia-button.lia-link-disabled:hover,
+#lia-body .lia-content .lia-form-vertical .lia-form-search-query-entry .lia-button.lia-button {
+  background-color: #589a43;
+  border: 0;
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+  margin: 0;
+  padding: 0 25px;
+  transition: background-color 0.15s, color 0.15s;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+#lia-body .lia-content .lia-button.lia-button.lia-button:hover {
+  background-color: #589a43;
+  border: 0;
+  background-image: url('https://onlinebanking.aib.ie/roi-desktop/images/gradient-dark-button-bottom.png');
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  background-size: 4% 100%;
+}
+
+#lia-body .lia-content .lia-component-kudos-widget-button-version-2 .lia-button.lia-button-image-kudos-horizontal {
+  background-color: transparent;
+}
+#lia-body .lia-content .lia-component-kudos-widget-button-version-2 .lia-button.lia-button-image-kudos-horizontal:hover {
+  background-color: transparent;
+  background-image: none;
+}
+
+#lia-body .lia-content .quote-message-link.quote-message-link.quote-message-link.quote-message-link, #lia-body .lia-content .lia-button-wrapper-Cancel-action .lia-button-primary.lia-button-primary.lia-button-Cancel-action, #lia-body .lia-content .lia-button-wrapper-Reset-action .lia-button-primary.lia-button-primary.lia-button-Reset-action {
+  background-color: #e7e7e7;
+  color: #999;
+}
+#lia-body .lia-content .quote-message-link.quote-message-link.quote-message-link.quote-message-link:hover,
+#lia-body .lia-content .lia-button-wrapper-Cancel-action .lia-button-primary.lia-button-Cancel-action:hover,
+#lia-body .lia-content .lia-button-wrapper-Reset-action .lia-button-primary.lia-button-Reset-action:hover {
+  background-color: #e7e7e7;
+  border: 0;
+  background-image: url('https://onlinebanking.aib.ie/roi-desktop/images/gradient-dark-button-bottom.png');
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  background-size: 4% 100%;
+}
+/* ==========================================================================
+    text inputs 
+   ========================================================================== */  
+#lia-body .lia-content .lia-token-input-list,
+#lia-body .lia-content .lia-form input[type=file],
+#lia-body .lia-content .lia-form input[type=password],
+#lia-body .lia-content .lia-form input[type=text],
+#lia-body .lia-content .lia-form input[type=text].lia-form-search-query-input.lia-form-search-query-input,
+#lia-body .lia-content .lia-form input[type=text].search-input,
+#lia-body .lia-content .lia-form textarea {
+  font-size: 14px;
+  height: 28px;
+  line-height: normal;
+  border: 1px solid #999;
+}
+
+
+
+
+/* Drop Down Selects
+   ========================================================================= */
+#lia-body .lia-content select,
+#lia-body .lia-content .lia-form select,
+#lia-body .lia-content .lia-component-quilt-header .lia-component-common-widget-search-form select,
+#lia-body .lia-content .lia-form .lia-form-input-wrapper > select {
+  border: 1px solid #999;
+  color: #333333;
+  height: 28px;
+}
+
+#lia-body .lia-content .lia-ask-an-expert-wrapper .lia-form .lia-form-input-wrapper > textarea {
+  border-radius: 2px;
+  height: 28px;
+  line-height: 100%;
+  margin: 0;
+  padding: 6px 10px 6px 10px;
+}
+
+
+
+#lia-body .lia-content .lia-panel .lia-panel-heading-bar {
+  color: #5A2049;
+}
+
+
+
+#lia-body .lia-content .lia-component-kudos-widget-button-version-2 .lia-button-image-kudos-horizontal .lia-button-image-kudos-count .lia-component-kudos-widget-message-kudos-count {
+  border: 1px solid #999;
+  height: 28px;
+  min-width: 28px;
+}
+#lia-body .lia-content .lia-component-kudos-widget-button-version-2 .lia-button-image-kudos-horizontal .lia-button-image-kudos-count .lia-link-navigation, #lia-body .lia-content .lia-component-kudos-widget-button-version-2 .lia-button-image-kudos-horizontal .lia-button-image-kudos-count .lia-component-kudos-widget-message-kudos-count {
+  line-height: 28px;
+}
+
+#lia-body .lia-content .lia-component-kudos-widget-button-version-2 .lia-button-image-kudos-horizontal .lia-button-image-kudos-give .kudos-link {
+  height: 28px;
+  margin-right: 10px;
+  border: 1px solid #999;
+}
+
+
+/* =========================================================================
+   Panels
+   ========================================================================= */
+#lia-body .lia-content .lia-quilt-column-side-content .lia-panel {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #CDCDCD;
+}
+
+
+
+.lia-body .lia-content .message-subject a, 
+.lia-body .lia-content .message-subject a:link, 
+.lia-body .lia-content .message-subject a:visited, 
+.lia-body .lia-content .message-subject a:hover, 
+.lia-body .lia-content .message-subject a:active, 
+.lia-body .lia-content .message-subject a:focus {
+  color: #5E5E5E;
+}

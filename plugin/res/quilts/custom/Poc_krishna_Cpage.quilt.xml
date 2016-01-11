@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.side-main" nestable="false">
+  <add to="side-content">
+    <component id="kudos.widget.givers-leaderboard"/>
+  </add>
+  <add to="main-content">
+    <component id="solutions.widget.accepted-solutions-leaderboard-taplet"/>
+  </add>
+</quilt>

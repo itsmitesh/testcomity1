@@ -1,0 +1,20 @@
+{
+  "name": "testcomity1",
+  "dependencies": {
+    "gulp": "3.8.11"
+  },
+  "devDependencies": {
+<<<<<<< HEAD
+    "lithium-sdk": "0.0.4"
+=======
+    "lithium-sdk": "0.0.5"
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lithiumtech/testcomity1.git"
+  }
+}

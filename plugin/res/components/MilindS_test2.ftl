@@ -1,0 +1,1 @@
+${coreNode.title}

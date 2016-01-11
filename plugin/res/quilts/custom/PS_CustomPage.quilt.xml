@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="true">
+  <add to="side-content">
+    <component id="PS_cmp_status"/>
+    <component id="PS_cmp_myImages"/>
+  </add>
+  <add to="main-content">
+    <component id="PS_recentPosts"/>
+    <component id="PS_cmp_likedPost"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:PS_HeaderPage"/>
+    <component id="PS_cmp_userProfile"/>
+  </add>
+</quilt>

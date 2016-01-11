@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false">
+  <add to="main-content">
+    <component id="milind_blog_stories_at_homepage"/>
+  </add>
+</quilt>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false">
+  <add to="side-content">
+    <component id="my_stats_vikas"/>
+    <component id="images.widget.gallery"/>
+  </add>
+  <add to="main-content">
+    <component id="Recent_Posts_byVikas"/>
+    <component id="posts_liked_by_me_vikas"/>
+  </add>
+  <add to="common-header">
+    <component id="my_profile_display_component_vikas"/>
+  </add>
+</quilt>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quilt layout="two-column.main-side" nestable="false">
+  <add to="common-footer">
+    <component id="quilt:Footer"/>
+  </add>
+  <add to="side-content">
+    <component id="MilindS_Rollboard"/>
+    <component id="users.widget.unsaved-drafts"/>
+    <component id="users.widget.contact-me"/>
+    <component id="klout.widget.cta-side-pane"/>
+    <component id="images.widget.gallery"/>
+    <component id="video.widget.gallery"/>
+    <component id="users.widget.my-friends-by-request"/>
+    <component id="tags.widget.my-tags"/>
+    <component id="user-node-rank.widget.rank-list"/>
+    <component id="kudos.widget.my-recent-kudos-to-users"/>
+    <component id="kudos.widget.my-recent-kudos-from-users"/>
+    <component id="fan-groups.widget.fan-groups-list"/>
+    <component id="users.widget.manage_roles"/>
+    <component id="groups.widget.my-groups-list-view"/>
+  </add>
+  <add to="main-content">
+    <component id="users.widget.about-me"/>
+    <component id="forums.widget.recent-messages"/>
+    <component id="blogs.widget.recent-blog-articles"/>
+    <component id="klout.widget.cta-profile"/>
+    <component id="users.widget.my-public-statistics"/>
+    <component id="users.widget.my-statistics"/>
+    <component id="kudos.widget.my-recently-kudoed-messages"/>
+    <component id="kudos.widget.messages-recently-kudoed-by-user"/>
+    <component id="tkb.widget.user-contributed-articles"/>
+    <component id="qanda.widget.my-questions"/>
+    <component id="qanda.widget.my-answers"/>
+    <component id="users.widget.moderator-controls"/>
+    <component id="reviews.widget.user-reviews"/>
+    <component id="support.widget.my-support-cases-taplet"/>
+  </add>
+  <add to="common-header">
+    <component id="quilt:Header"/>
+    <component id="view-profile-banner"/>
+  </add>
+</quilt>

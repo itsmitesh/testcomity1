@@ -1,0 +1,5 @@
+<endpoint version="1.0.0" key="maheshr-testendpoint" feature="custom.comity.comity">
+  <model/>
+  <view type="freemarker" contenttype="text/html" macro="false"/>
+  <controller id="basic" path="/maheshr-testendpoint"/>
+</endpoint>
