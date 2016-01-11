@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This directory contains controller files. Controllers are used with endpoints.
 
 When contributing an endpoint using the SDK, each endpoint consists of two files:
@@ -11,11 +12,17 @@ This directory contains controller files.
 
 Controllers contain the Freemarker content portions of endpoints.
 >>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
+=======
+This directory contains controller files.
+
+Controllers contain the Freemarker content portions of endpoints.
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
 
 All files must have the .ftl extension, and should be readable as freemarker (http://freemarker.org/docs/) which parses as html.
 There are no mandatory files in this directory.
 
 See `endpoints/README.md` for more information.
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 Here is an example controller that retrieves a list of idea statuses defined for a community and then returns the count of how many ideas have each status, condensing the response from two calls into a single response in order to save an additional HTTP request.
@@ -47,5 +54,7 @@ Here is an example controller that retrieves a list of idea statuses defined for
 </@compress>
 
 The controller file appears in Studio > Endpoints. The associated endpoint XML file does not appear in Studio. 
+=======
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
 =======
 >>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f

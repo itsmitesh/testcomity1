@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This directory contains skins, which are directories of css, skin properties, and image files used to theme your community.
+=======
+This directory contains skins, which are directories of css, property and image files which can be used to theme your community.
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
 =======
 This directory contains skins, which are directories of css, property and image files which can be used to theme your community.
 >>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
@@ -15,6 +19,7 @@ All files in this directory or any of its subdirectories must have one of the fo
 See Lithium Studio for an example of the structure of a skin and the files which may be included in it.
 There are no mandatory files in this directory.
 Subdirectories are allowed in this directory up to a depth of 6.
+<<<<<<< HEAD
 <<<<<<< HEAD
 Skins contributed using the SDK appear in Studio > Skins.
 
@@ -34,6 +39,9 @@ A skin.properties file exists and has the parent and title fields defined
 The parent skin defined in skin.properties must exist 
 
 Quilts contributed with the SDK appear in the Custom section of the Page selection modal when you click 'Choose' in Studio > Page.
+=======
+Skins are edited in the Studio plugin at Studio > Skins.
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
 =======
 Skins are edited in the Studio plugin at Studio > Skins.
 >>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f

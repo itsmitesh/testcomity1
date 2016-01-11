@@ -1,7 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 This folder is intended for a specific file named common.init.ftl.
 
 This file enables you to execute business logic using FreeMarker early in a request prior to any HTML being rendered. The script runs once each request, server side, and is often used for redirecting to a different page and reskinning pages in the community.
+=======
+This enables you to execute business logic using FreeMarker early in a request prior to any HTML being rendered. The script runs once each request, server side, and is often used for redirecting to a different page and reskinning pages in the community.
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
 =======
 This enables you to execute business logic using FreeMarker early in a request prior to any HTML being rendered. The script runs once each request, server side, and is often used for redirecting to a different page and reskinning pages in the community.
 >>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
@@ -15,9 +19,14 @@ Let's say you want to redirect anonymous users coming to the community to a cust
 </#if>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Alternatively, you can edit common.init.ftl in Studio > Advanced > Page Initialization.
 
 Warning: The Page Initialization Script is an advanced tool, and in some cases might contain code that has been created for you by Lithium Services for community customizations. Do not edit any code that you might see by default without first consulting Lithium Services or Support. We strongly recommend consulting with Lithium before using the script.
+=======
+
+Warning: Please make sure to use this script page very cautiously. You may not want to do a redirect everytime any user lands on the community page.
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
 =======
 
 Warning: Please make sure to use this script page very cautiously. You may not want to do a redirect everytime any user lands on the community page.

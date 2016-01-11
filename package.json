@@ -5,7 +5,11 @@
   },
   "devDependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "lithium-sdk": "0.0.4"
+=======
+    "lithium-sdk": "0.0.5"
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
 =======
     "lithium-sdk": "0.0.5"
 >>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f

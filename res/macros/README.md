@@ -21,11 +21,16 @@ Recurse_response calls to a separate macro to include a user avatar in the respo
 </#macro>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Macros use the extsion .ftl, and should be readable as freemarker (http://freemarker.org/docs/) which parses as HTML.
 Macro names can contain letters (a-z), numerals (1-9), hyphen (-), underscore ( _ ), and dot (.). A macro name cannot begin with '.'
 There are no mandatory files in this directory.
 
 Macros contributed with the SDK appear in Studio > Endpoints.
+=======
+All files must have the .ftl extension, and should be readable as freemarker (http://freemarker.org/docs/) which parses as html.
+There are no mandatory files in this directory.
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
 =======
 All files must have the .ftl extension, and should be readable as freemarker (http://freemarker.org/docs/) which parses as html.
 There are no mandatory files in this directory.

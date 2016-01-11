@@ -3,6 +3,7 @@ All files in this directory or any of its subdirectory must have the .properties
 There are no mandatory files in this directory.
 Subdirectories are allowed in this directory up to a depth of 3.
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 An example structure for a community supporting American English and French might look like this:
 
@@ -15,6 +16,9 @@ An example structure for a community supporting American English and French migh
 
 
 See 'Languages that Lithium Supports' (https://community.lithium.com/t5/Community-display/Languages-that-Lithium-supports/ta-p/6566) for supported language codes.
+=======
+Text keys are edited in the Studio plugin at Studio > Text Editor.
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
 =======
 Text keys are edited in the Studio plugin at Studio > Text Editor.
 >>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f

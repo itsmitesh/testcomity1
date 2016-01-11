@@ -3,6 +3,7 @@ This directory contains endpoint files.
 Endpoints are a Lithium feature that enables you to create dynamic content at a specified URL, providing powerful flexibility and extensibility to your community.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 An Endpoint comprise of two files in the plugin:
 * an XML file that end with the `.endpoint.xml` file extension that goes under this directory. It contains the
 metadata for the endpoint.
@@ -17,6 +18,8 @@ Here is an example endpoint.xml file:
 
 
 =======
+=======
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
 An Endpoint comprise of two files in the plugin.
 
 The first file is a xml file that end with the `.endpoint.xml` file extension that goes under this directory. It contains the
@@ -25,6 +28,9 @@ metadata for the endpoint.
 Here is an example endpoint.xml file:
 
 ```xml
+<<<<<<< HEAD
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
+=======
 >>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
 <endpoint version="1.0.0" key="restcall" feature="sandbox.myplugin">
   <model/>
@@ -32,6 +38,7 @@ Here is an example endpoint.xml file:
   <controller id="basic" path="/restcall"/>
 </endpoint>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 Endpoint parameters:
@@ -45,6 +52,9 @@ Endpoint parameters:
 * path - the path to the controller. Set this to the same as the key, but with a leading forward-slash, such as /ideaStatusCount
 
 The Endpoint XML file does not appear in Studio, but the associated controller file appears in Studio > Endpoints. 
+=======
+The second file stores the Freemarker content of the endpoint and it goes under the `controllers` directory with a `.ftl` file extension.
+>>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
 =======
 The second file stores the Freemarker content of the endpoint and it goes under the `controllers` directory with a `.ftl` file extension.
 >>>>>>> a10fe5e189e53f5641512a3b6acdea3ff50c842f
